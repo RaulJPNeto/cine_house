@@ -1,0 +1,121 @@
+html, body {
+  height: 100%; /* Garante que a altura da página ocupe 100% */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px; /* Garante que a largura da app seja responsiva */
+  background-color: #333; /* Cor de fundo da div app (mais escuro) */
+  color: #fff; /* Cor do texto (branco) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+  border-radius: 8px; /* Bordas arredondadas */
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-item {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  background-color: #444; /* Fundo mais escuro para os itens de filme */
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff; /* Cor do texto dos itens */
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-item:hover {
+  transform: scale(1.08);
+}
+
+.movie-details {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #444; /* Fundo mais escuro para a seção de detalhes do filme */
+  color: #fff; /* Cor do texto */
+}
+
+.movie-image {
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+}
+
+.menu-lanches {
+  margin-top: 20px;
+}
+
+.lanches-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.lanche-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  padding: 10px;
+  background-color: #444; /* Fundo mais escuro para os itens */
+  border-radius: 8px;
+  width: 80px;
+}
+
+.lanche-item:hover {
+  transform: scale(1.05);
+}
+
+.lanche-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.lanche-name {
+  font-size: 16px;
+  color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+
