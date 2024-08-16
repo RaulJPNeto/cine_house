@@ -3,27 +3,30 @@ import './App.css'
 import MovieList from "./components/MovieList.jsx";
 import MovieDetail from "./components/MovieDetail.jsx";
 import MenuLanches from "./components/MenuLanches.jsx";
+import img1 from "./assets/imagens/amsterdam.jpg";
+import img2 from "./assets/imagens/nadaDeNovoNoFront.jpg";
+import img3 from "./assets/imagens/paingain.jpg";
 
 function App() {
     const [movies, setMovies] = useState([
         {
             id: 1,
             title: "Amsterdam",
-            cover:  "imagens/amsterdam.jpg",
+            cover: img1,
             description: "Na década de 30, quando um trio de amigos (Christian Bale, Margot Robbie e John David Washington) é confundido com um grupo criminoso, essa turma cruza o caminho de uma organização secreta e se mete numa avalanche de enrascadas para tentar provar sua inocência.",
             duration: "2h 14m"
         },
         {
             id: 2,
             title: "Nada de Novo no Front",
-            cover:  "imagens/nadaDeNovoNoFront.jpg",
+            cover: img2,
             description: "Enquanto os burocratas decidem se acabam ou não com o confronto, jovens continuam sendo enviados diariamente aos campos de batalha. Nesse contexto, alguns jovens alemães se alistam para provar seu valor e logo descobrir que esse negócio de guerra não é brincadeira.",
             duration: "2h 27m"
         },
         {
             id: 3,
             title: "Sem Dor, Sem Ganho",
-            cover:  "imagens/paingain.jpg",
+            cover: img3,
             description: "Daniel Lugo (Mark Wahlberg) é um instrutor de fisiculturismo na Flórida que, cansado de ser só mais um, decide montar um plano ousado para ficar rico. Ele recruta seus amigos malucos, Adrian (Anthony Mackie) e Paul (Dwayne Johnson), para sequestrar e extorquir um cliente rico da academia. ",
             duration: "2h 09m"
         }
