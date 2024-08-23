@@ -3,32 +3,32 @@ import './App.css'
 import MovieList from "./components/MovieList.jsx";
 import MovieDetail from "./components/MovieDetail.jsx";
 import MenuLanches from "./components/MenuLanches.jsx";
-import img1 from "./assets/imagens/amsterdam.jpg";
-import img2 from "./assets/imagens/nadaDeNovoNoFront.jpg";
-import img3 from "./assets/imagens/paingain.jpg";
+import img1 from "./assets/imagens/dontBreathe2.jpg";
+import img2 from "./assets/imagens/mindCage.jpg";
+import img3 from "./assets/imagens/amsterdam.jpg";
 
 function App() {
     const [movies, setMovies] = useState([
         {
             id: 1,
-            title: "Amsterdam",
+            title: "Homem nas Trevas 2",
             cover: img1,
-            description: "Na década de 30, quando um trio de amigos (Christian Bale, Margot Robbie e John David Washington) é confundido com um grupo criminoso, essa turma cruza o caminho de uma organização secreta e se mete numa avalanche de enrascadas para tentar provar sua inocência.",
-            duration: "2h 14m"
+            description: "O ex-militar cego Norman Nordstrom vive uma vida tranquila e isolada, se relacionando apenas com sua jovem filha adotiva. Porém, sua paz logo é destruída quando um grupo de criminosos invade sua casa e sequestra a garota. Assim, Norman é forçado a voltar a seus instintos sombrios para salvá-la.",
+            duration: "1h 38m"
         },
         {
             id: 2,
-            title: "Nada de Novo no Front",
+            title: "Gaiola Mental",
             cover: img2,
-            description: "Enquanto os burocratas decidem se acabam ou não com o confronto, jovens continuam sendo enviados diariamente aos campos de batalha. Nesse contexto, alguns jovens alemães se alistam para provar seu valor e logo descobrir que esse negócio de guerra não é brincadeira.",
-            duration: "2h 27m"
+            description: "Dois detetives buscam a ajuda de um brilhante assassino em série quando um assassino imitador ataca.",
+            duration: "1h 37m"
         },
         {
             id: 3,
-            title: "Sem Dor, Sem Ganho",
+            title: "Amsterdam",
             cover: img3,
-            description: "Daniel Lugo (Mark Wahlberg) é um instrutor de fisiculturismo na Flórida que, cansado de ser só mais um, decide montar um plano ousado para ficar rico. Ele recruta seus amigos malucos, Adrian (Anthony Mackie) e Paul (Dwayne Johnson), para sequestrar e extorquir um cliente rico da academia. ",
-            duration: "2h 09m"
+            description: "Na década de 30, quando um trio de amigos (Christian Bale, Margot Robbie e John David Washington) é confundido com um grupo criminoso, essa turma cruza o caminho de uma organização secreta e se mete numa avalanche de enrascadas para tentar provar sua inocência.",
+            duration: "2h 14m"
         }
 
     ]);
