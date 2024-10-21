@@ -70,7 +70,7 @@ function App() {
                     <h3>{selectedLanche.descricao}</h3>
                     <img src={selectedMovie.cover} alt={selectedMovie.title} className="movie-image"/>
                     <a
-                        href={`https://wa.me/5563984299228?text=Eu%20escolhi%20o%20filme%20${encodeURIComponent(selectedMovie.title)}%20e%20o%20lanche%20${encodeURIComponent(selectedLanche.name)}!`}
+                        href={`https://wa.me//*contato*/?text=Eu%20escolhi%20o%20filme%20${encodeURIComponent(selectedMovie.title)}%20e%20o%20lanche%20${encodeURIComponent(selectedLanche.name)}!`}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
